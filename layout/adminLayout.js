@@ -117,6 +117,11 @@ const menu = [
                 icon: TiContacts,
                 href: '/admin/landingPage',
             },
+            {
+                label: 'Driver Management',
+                icon: TiContacts,
+                href: '/admin/driverManagement',
+            },
         ]
     },
     {
