@@ -31,13 +31,13 @@ const MorePage = () => {
                     </div>
                 </div>
 
-                {/* <div className='my-4'>
+                <div className='my-4'>
                     <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>press</h5>
                     <div className='m-4'>
-                        <p className='text-base'>Here, anyone can see a page title, subtitle, and page content that is fully dynamic. The admin can update all information in the admin panel at any time.</p>
-                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/more/business.png' alt="" />
+                        <p className='text-base'>Here, anyone can see a page title, subtitle, and some press content. The admin can update, create, or delete any information in the admin panel.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/more/press.png' alt="" />
                     </div>
-                </div> */}
+                </div>
 
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>FAQ's</h5>

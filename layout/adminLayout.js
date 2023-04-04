@@ -222,6 +222,11 @@ const menu = [
                 href: '/live/home',
             },
             {
+                label: 'Blog Page',
+                icon: TiContacts,
+                href: '/live/blog',
+            },
+            {
                 label: 'About Page',
                 icon: TiContacts,
                 href: '/live/about',
