@@ -62,8 +62,8 @@ const Sidebar = ({ menu }) => {
             <div className="sidebar-bg" onClick={removeMenu} />
             <nav className="sidebar text-black">
                 <div className='sidebarBg pb-10'>
-                    <div className='h-16 border-2 rounded mx-2 border-red-300 flex items-center justify-center site-title'>
-                        <Link href='/'><p className='text-[18px] mb-0 font-semibold cursor-pointer'>Documentation</p></Link>
+                    <div className='h-16 rounded mx-2 flex items-center justify-center site-title'>
+                        <Link href='/'><p className='text-[22px] mb-0 font-bold cursor-pointer text-[#5A5A5A]'>Documentation</p></Link>
                     </div>
 
                     <MetisMenu>

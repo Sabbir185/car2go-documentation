@@ -16,3 +16,23 @@
 .scene {
   transform: perspective(1000px) rotateY(-30deg);
 }
+
+// ant tab style change
+.ant-tabs-tab {
+  color: #5A5A5A;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-left: 40px !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #FFA525 !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FFA525 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #FFA525 !important;
+}

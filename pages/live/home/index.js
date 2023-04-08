@@ -4,76 +4,86 @@ import AdminLayout from '../../../layout/adminLayout';
 const HomePage = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
-                <h4 className='text-center'>Home Page</h4>
+            <div className='bg-zinc-100 h-auto m-6 w-[90%] text-[16px] p-4'>
+                
+                <h4 className='text-center font-semibold underline'>Home Page</h4>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>header</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>header and hero section</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the hero section with two photos, here all the sections are dynamic. You can change it according to your requirement.</p>
-                        <img className='h-auto w-auto' src='/images/h1.png' alt="" />
+                        <p className='text-base'>In this section, anyone can see the hero section with a banner image; here, all the sections are dynamic. You can change it according to your requirements in the admin panel.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/hero.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>File With An Expert</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>brand/partnership</h5>
                     <div className='m-4'>
-                        <p>In this section, three cards are displayed for your company working process flow.</p>
-                        <img className='h-auto w-auto' src='/images/h2.png' alt="" />
+                        <p className='text-base'>In this section, anyone can see the partnership/brand company logo as a slider; this section is also dynamic.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/brand.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Why taxstick </h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>platform service</h5>
                     <div className='m-4'>
-                        <p>Here, anyone can see the company highlighting information, this section is also dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h3.png' alt="" />
+                        <p className='text-base'>In this section, anyone can see all the services provided by the platform and their descriptions, which are dynamic.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/platform.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Our Service</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>platform work</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the company service-related card displayed on a slide show, this section is also dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h4.png' alt="" />
+                        <p className='text-base'>In this section, three cards are displayed for your company's work process flow.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/work-card.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>User feedback </h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>counter section</h5>
                     <div className='m-4'>
-                        <p>This is the user feedback section. You can customize and control this.</p>
-                        <img className='h-auto w-auto' src='/images/h5.png' alt="" />
+                        <p className='text-base'>In this section, there are four options to display some value, such as: app downloads, active riders, active users, and trips or orders saved. This section is also dynamic.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/counter.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>More Information</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>benefit section</h5>
                     <div className='m-4'>
-                        <p>This is the more information part where three videos can be put there.</p>
-                        <img className='h-auto w-auto' src='/images/h6.png' alt="" />
+                        <p className='text-base'>In this section, three cards are displayed for your company's benefit information in a dynamic way.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/benifit.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Contact us</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>testmonial section</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can send an email to the admin of the company, this section is also dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h7.png' alt="" />
+                        <p className='text-base'>This is the user feedback section. The admin can delete and control this.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/testmonial.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>File Taxes</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>latest blog section</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see tax file submission process-related information and video,this section is also dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h8.png' alt="" />
+                        <p className='text-base'>In this section, anyone can see the latest blog as a slider. The admin can create, update, or delete any blog in the admin panel.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/blog.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>partnership</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>newsletter</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the partnership company logo, this section is also dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h9.png' alt="" />
+                        <p className='text-base'>In this section, there is an input form. Anyone can subscribe to your platform by submitting his/her email here.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/newsletter.png' alt="" />
                     </div>
                 </div>
+
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>footer and copyright</h5>
+                    <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>Footer And Copyright</h5>
                     <div className='m-4'>
-                        <p>This is footer and copyright section that is totally dynamic.</p>
-                        <img className='h-auto w-auto' src='/images/h10.png' alt="" />
+                        <p className='text-base'>This is the footer and copyright section, which is totally dynamic. The admin can change the logo and any data in the admin panel.</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/homepage/home/footer.png' alt="" />
                     </div>
                 </div>
             </div>

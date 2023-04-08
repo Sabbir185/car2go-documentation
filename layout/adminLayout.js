@@ -117,6 +117,21 @@ const menu = [
                 icon: TiContacts,
                 href: '/admin/landingPage',
             },
+            {
+                label: 'Driver Management',
+                icon: TiContacts,
+                href: '/admin/driverManagement',
+            },
+            {
+                label: 'Withdraw',
+                icon: TiContacts,
+                href: '/admin/withdraw',
+            },
+            {
+                label: 'Feedback',
+                icon: TiContacts,
+                href: '/admin/feedback',
+            },
         ]
     },
     {
@@ -222,19 +237,34 @@ const menu = [
                 href: '/live/home',
             },
             {
+                label: 'Blog Page',
+                icon: TiContacts,
+                href: '/live/blog',
+            },
+            {
                 label: 'About Page',
                 icon: TiContacts,
                 href: '/live/about',
             },
             {
+                label: 'Knowledge Page',
+                icon: TiContacts,
+                href: '/live/knowledge',
+            },
+            {
+                label: 'Terms & Condition Page',
+                icon: TiContacts,
+                href: '/live/termsCondition',
+            },
+            {
+                label: 'Privacy Policy Page',
+                icon: TiContacts,
+                href: '/live/privacyPolicy',
+            },
+            {
                 label: 'Contact Page',
                 icon: TiContacts,
                 href: '/live/contact',
-            },
-            {
-                label: 'Tax Situation Pages',
-                icon: TiContacts,
-                href: '/live/taxSituation',
             },
             {
                 label: 'More Pages',

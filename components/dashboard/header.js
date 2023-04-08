@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <div className='header flex items-center'>
-            <div className='border-2 rounded border-red-300 h-16 w-20 shadow ml-6 flex justify-center items-center'>
+            <div className=' rounded h-14 w-16 shadow-sm ml-6 flex justify-center items-center'>
                 <FaBars size={22} role="button" onClick={() => {
                     document.querySelector('.dashboard')?.classList.toggle(window.innerWidth >= 1024 ? 'mini' : 'mobile')
                 }} />
