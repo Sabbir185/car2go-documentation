@@ -124,12 +124,27 @@ const menu = [
         icon: MdSupervisorAccount,
         child: [
             {
-                label: 'Accountant Login',
+                label: 'Trip History',
                 icon: TiContacts,
-                href: '/accountant/login',
+                href: '/user-panel/trip-history',
             },
             {
-                label: 'Account All Files',
+                label: 'Payment List',
+                icon: TiContacts,
+                href: '/accountant/allTaxFile',
+            },
+            {
+                label: 'Offers',
+                icon: TiContacts,
+                href: '/accountant/allTaxFile',
+            },
+            {
+                label: 'Wallet',
+                icon: TiContacts,
+                href: '/accountant/allTaxFile',
+            },
+            {
+                label: 'Support Ticket',
                 icon: TiContacts,
                 href: '/accountant/allTaxFile',
             },
