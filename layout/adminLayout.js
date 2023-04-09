@@ -1,25 +1,42 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword,
+    MdEditNote,
+    MdRule,
+    MdAnnouncement,
+    MdAdminPanelSettings,
+    MdOutlineSupportAgent,
+    MdSupervisorAccount,
+    MdSupervisedUserCircle,
+    MdPhoneInTalk,
+    MdPassword,
+    MdNotificationAdd, MdOutlineNotificationAdd, MdOutlineNotificationImportant,
+    MdPermDataSetting,
+    MdSettingsPhone,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
-import { TiContacts } from "react-icons/ti";
-import { CgMediaLive } from "react-icons/cg";
-import { FcWorkflow } from "react-icons/fc";
-import { TiFlowMerge } from "react-icons/ti";
+import {TiContacts} from "react-icons/ti";
+import {CgMediaLive} from "react-icons/cg";
+import {FcWorkflow} from "react-icons/fc";
+import {TiFlowMerge} from "react-icons/ti";
+import {BiNotification} from "react-icons/bi";
+import {AiFillNotification,} from "react-icons/ai";
+import {IoNotificationsCircleSharp,} from "react-icons/io5";
+import {FaWrench, FaTools,} from "react-icons/fa";
+import {VscSettings} from "react-icons/vsc";
+import {RiChatSettingsLine, RiMailSettingsFill, RiSettings6Fill} from "react-icons/ri";
+import { IoPush} from "react-icons/io5";
 
-
-const AdminLayout = ({ children }) => {
+const AdminLayout = ({children}) => {
 
     const menu = getMenu()
 
     return (
         <div className="dashboard">
-            <Sidebar menu={menu} />
-            <Header />
-            <div className="absolute top-0 h-32 w-full " />
+            <Sidebar menu={menu}/>
+            <Header/>
+            <div className="absolute top-0 h-32 w-full "/>
             <div className="main-content ">
-                <div className="w-full z-30" style={{ minHeight: 400 }}>
+                <div className="w-full z-30" style={{minHeight: 400}}>
                     {children}
                 </div>
             </div>
@@ -29,9 +46,7 @@ const AdminLayout = ({ children }) => {
 
 export default AdminLayout;
 
-
 const menu = [
-
     {
         label: 'Instruction',
         icon: MdAnnouncement,
@@ -224,6 +239,77 @@ const menu = [
                 label: 'Feedback',
                 icon: TiContacts,
                 href: '/user/feebbackUS',
+            },
+        ]
+    },
+    {
+        label: 'Push Notification',
+        icon: AiFillNotification,
+        permission: 'any',
+        child: [
+            {
+                label: 'Send Notification',
+                icon: MdNotificationAdd,
+                href: '/push-notification/send_notification',
+                permission: 'any'
+            },
+            {
+                label: 'All Notification',
+                icon: IoNotificationsCircleSharp,
+                href: '/push-notification/all_notification',
+                permission: 'any'
+            },
+            {
+                label: 'Scheduled Notification',
+                icon: MdOutlineNotificationAdd,
+                href: '/push-notification/schedule_notification',
+                permission: 'any'
+            },
+            {
+                label: 'Failed Notification',
+                icon: MdOutlineNotificationImportant,
+                href: '/push-notification/failed_notification',
+                permission: 'any'
+            },
+            {
+                label: 'Manage Notification Group ',
+                icon: BiNotification,
+                href: '/push-notification/manage_group',
+                permission: 'any'
+            },
+        ]
+    },
+    {
+        label: 'Settings', icon: FaWrench, permission: 'any', child: [
+            {
+                label: 'Site Settings', icon: VscSettings, href: '/settings', permission: 'any'
+            },
+            {
+                label: 'Application Url', icon: FaTools, href: '/settings/app_url', permission: 'any'
+            },
+            {
+                label: 'Email Settings', icon: RiMailSettingsFill, href: '/settings/email', permission: 'any'
+            },
+            {
+                label: 'SMS Settings', icon: RiChatSettingsLine, href: '/settings/sms', permission: 'any'
+            },
+            {
+                label: 'Payment Settings', icon: RiSettings6Fill, href: '/settings/payment', permission: 'any'
+            },
+            {
+                label: 'Language & Translation',
+                icon: MdPermDataSetting,
+                href: '/settings/languages',
+                permission: 'any'
+            },
+            {
+                label: 'Whatsapp settings', icon: MdSettingsPhone, href: '/settings/whatsapp', permission: 'any'
+            },
+            {
+                label: 'Push Notification Settings',
+                icon: IoPush,
+                href: '/settings/push_notification',
+                permission: 'any'
             },
         ]
     },
