@@ -131,6 +131,16 @@ const FrontendPages = () => {
                                 <img className='h-auto w-auto shadow-sm' src='/images/admin/frontend-pages/service/second-land.png' alt="" />
                             </div>
                         </div>
+
+                        <div className='my-4'>
+                            <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>Last Section</h5>
+                            <div className='m-4'>
+                                <p className='text-base underline font-semibold capitalize'>admin panel</p>
+                                <img className='h-auto w-auto shadow-sm mx-auto' src='/images/admin/frontend-pages/service/last.png' alt="" />
+                                <p className='text-base underline font-semibold capitalize mt-4'>service page</p>
+                                <img className='h-auto w-auto shadow-sm mx-auto' src='/images/admin/frontend-pages/service/last-land.png' alt="" />
+                            </div>
+                        </div>
                     </Tabs.TabPane>
 
                     <Tabs.TabPane tab="Business" key="9">

@@ -133,6 +133,11 @@ const menu = [
                 href: '/admin/frontendPages',
             },
             {
+                label: 'Marketing',
+                icon: TiContacts,
+                href: '/admin/marketing',
+            },
+            {
                 label: 'Feedback',
                 icon: TiContacts,
                 href: '/admin/feedback',
