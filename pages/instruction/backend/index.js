@@ -11,31 +11,36 @@ const backend = () => {
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 1</p>
                             First of all, you need to deploy the backend in your Domain or Subdomain. <span className='italic'> But we recommend subdomain actually. For example, <span className=' text-red-400'>backend.your_main_domain@something.com.</span></span>
-                            <br /> Now you need to zip the taxstick-backend file.
-                            <img className='h-auto w-auto mt-4' src="/images/i4.png" alt="" />
+                            <br /> Now you need to zip the car2go-backend file.
+                            <img className='h-[500px] w-auto mt-4' src="/pictures/installation/zipped.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 2</p>
-                            Then you have to go to your file manager of your server panel or cPanel, then upload the taxstick-backend.zip file.
+                            Then you have to go to your file manager of your server panel or cPanel, then upload the car2go-backend.zip file.
                             <img className='h-auto w-auto mt-4' src="/images/b1.png" alt="" />
                         </li>
 
                         <li className='my-4'>
+                            Uploaded zipped file
+                            <img className='h-auto w-auto mt-4' src="/pictures/installation/upload1.png" alt="" />
+                        </li>
+
+                        <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 3</p>
-                            Then <span className='italic text-red-400'>Unzip</span> the file,
-                            <img className='h-auto w-auto mt-4' src="/images/b6.png" alt="" />
+                            Then <span className='italic text-red-400'>Unzip</span> the car2go-backend file,
+                            <img className='h-auto w-auto mt-4' src="/pictures/installation/unzipped.png" alt="" />
                         </li>
 
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
-                            Open your terminal and enter<span className='italic text-red-400 font-medium'> sudo yarn</span> command and hit enter,
+                            Now. make sure that you are into the car2go backend directory. Open your terminal and type<span className='italic text-red-400 font-medium'> sudo yarn</span> command and hit enter,
                             <img className='h-auto w-auto mt-4' src="/images/sudo.png" alt="" />
                         </li>
 
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
-                            Now you can see the uploaded files And You can see <span className='text-green-500'>node_modules.</span> 
-                            <img className='h-auto w-auto mt-4' src="/images/b8.png" alt="" />
+                            Now you see the <span className='text-green-500'>node_modules.</span> inside of this directory.
+                            <img className='h-auto w-auto mt-4' src="/pictures/installation/final-files.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 6</p>
@@ -53,18 +58,17 @@ const backend = () => {
                             <ul className='list-disc'>
                                 <li>to select your folder path,</li>
                                 <li>fill up the Name, (do not give line space in the name, use underscore)</li>
-                                <li>select Run opt,</li>
-                                <li>select the port,</li>
+                                <li>select Run opt as production,</li>
+                                <li>Given the port number,</li>
                                 <li>select node version, </li>
-                                <li>and give your domain name</li>
+                                <li>and give your domain/sub-domain name</li>
                             </ul>
                             Then click on confirm button. Make sure all information is correct.
-                            <img className='h-auto w-auto mt-4' src="/images/b11.png" alt="" />
+                            <img className='h-auto w-auto mt-4' src="/pictures/installation/upload3.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 9</p>
-                            Then click the file and right-click on your mouse, then you can get a new window
-                            <img className='h-auto w-auto mt-4' src="/images/b12.png" alt="" />
+                            Now go to the <span className='italic text-red-400'> Node Project</span> and you will find the name of your project for example: car2go_backend, click on the project name. 
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 10</p>

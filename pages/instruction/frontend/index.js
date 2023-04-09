@@ -11,21 +11,21 @@ const backend = () => {
                     <ul className='list-disc'>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 1</p>
-                            Open the folder first.
-                            <img className='h-[500px] w-auto mt-4' src="/images/front.png" alt="" />
+                            Open the car2go frontend folder first.
+                            <img className='h-[400px] w-auto mt-4' src="/pictures/installation/2.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 2</p>
                             Then you need to find the <span className=' text-red-400'> next.config.js</span> file and open it in your appropriate text editor.
                             <img className='h-[500px] w-auto my-4' src="/images/f2.png" alt="" />
-                            <p>Because you need to change the necessary information of your website such as <span className=' text-red-400'>BACKEND URL, the text is underlined in the image below</span>, in this case, you must be provided your personal backend domain or sub domain URL and save it.</p>
+                            <p>Because you need to change the necessary information of your website such as <span className=' text-red-400'>backend_url</span>, the text is underlined in the image below, in this case, you must be provided your project&apos;s backend domain or sub domain URL and save it.</p>
                             <img className='h-[500px] w-auto mt-4' src="/images/f3.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 3</p>
                             Then you need to open your terminal or command prompt (mac and linus user) or windows user you have to follow the picture. Select the address bar and type <span className=' text-red-400'>cmd</span>
                             <img className='h-[500px] w-auto my-4' src="/images/f5.png" alt="" />
-                            <p>Then the command prompt open. Type <span className=' text-red-400'>yarn run buildexport</span> and hit enter</p>
+                            <p>Then the command prompt open. Type <span className=' text-red-400'>yarn run buildexport</span> and hit enter. Before that make sure that you are in the car2go-frontend directory/folder.</p>
                             <img className='h-auto w-auto my-4' src="/images/f6.png" alt="" />
                             <p>After build successfully, you can see <span className=' text-red-400'>Export successful</span> message and then you will get <span className=' text-red-400'>out</span> folder</p>
                             <img className='h-auto w-auto my-4' src="/images/f7.png" alt="" />
@@ -33,15 +33,26 @@ const backend = () => {
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
-                            <p>Now zip the <span className=' text-red-400'>out</span> folder and upload it to your server.</p>
-                            <img className='h-auto w-auto my-4' src="/images/f8.png" alt="" />
+                            <p>Now it&apos;s time to add sitemap for SEO friendly. First of all, you need to change the <span className=' text-red-400'> next-sitemap.config.js</span>, here just replace <span className=' text-red-400'> https://car2go.appstick.com.bd/</span> with your domain name and save this file.</p>
+                            <img className='h-auto w-auto my-4' src="/pictures/installation/site-map.png" alt="" />
+                            Now, open your terminal and type <span className=' text-red-400'> yarn run postbuild</span>  and hit enter.
+
+                            <img className='h-auto w-auto my-4' src="/pictures/installation/final-build.png" alt="" />
+
+                            <p>Now zip the inside files of the out folder and upload it to your server, under your domain. Don&apos;t forget to turn on SSL from your panel.</p>
+                       
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
-                            <p>Then you go to your server panel or cPanel, Select your <span className=' text-red-400'>Document Root</span> and right click on your mouse.</p>
+                            <p>Then you go to your server panel or cPanel, create a static project (if it is aapanel, you will see <span className=' text-red-400'> PHP Project</span> tab from the sidebar website menu) like below picture and after that Click on <span className=' text-red-400'>Document Root</span> of this project.</p>
+
+                            <img className='h-auto w-auto my-4' src="/pictures/installation/static.png" alt="" />
+
                             <img className='h-auto w-auto my-4' src="/images/f9.png" alt="" />
-                            <p className='text-[20px] text-red-500 font-bold'>** Now you need to follow the backend installation process Step 2 - Step 10</p>
-                            <p className='text-[20px] text-red-500 font-bold'>Note: in Step 7 of backend installation process, in the domain name section please confirm that it will be the root domain (Not a subdomain). For example, your_main_domain.com</p>
+
+
+                            <p className='text-[20px] text-red-500 font-bold'>** Now you need to follow the backend installation process step 2 - step 3 but for now you have to upload car2go-frontend zipped file and also follow steps 10, 11</p>
+                
                         </li>
                         <p className='border-[1px] border-green-500 text-center p-2 text-green-500 font-semibold text-[24px]'>After successful completion of all the processes, your website will go live, visit your domain url, for example <span className='italic '>your_main_domain.com</span> </p>
                         <p className='text-right'>

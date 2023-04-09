@@ -33,21 +33,21 @@ export default AdminLayout;
 const menu = [
 
     {
-        label: 'Instruction',
+        label: 'Instructions',
         icon: MdAnnouncement,
         child: [
             {
-                label: 'Installation Process',
+                label: 'Getting Started',
                 icon: MdRule,
                 href: '/instruction/install',
             },
             {
-                label: 'Backend Installation Process',
+                label: 'Backend Setup',
                 icon: MdRule,
                 href: '/instruction/backend',
             },
             {
-                label: 'Frontend Installation Process',
+                label: 'Frontend Setup',
                 icon: MdRule,
                 href: '/instruction/frontend',
             },
@@ -56,81 +56,41 @@ const menu = [
                 icon: MdEditNote,
                 href: '/instruction/setting',
             },
-            {
-                label: 'Website Run Time Work Flow',
-                icon: TiFlowMerge,
-                href: '/instruction/run',
-            },
         ]
     },
     {
-        label: 'Tax Filing Work Flow',
+        label: 'Initial Setup',
         icon: FcWorkflow,
-        href: '/flow/file',
+        href: '/initial-setup',
     },
     {
         label: 'Admin Panel',
         icon: MdAdminPanelSettings,
         child: [
             {
-                label: 'Admin Login',
+                label: 'Service Management',
                 icon: TiContacts,
-                href: '/admin/login',
+                href: '/admin/setup/service-management',
             },
             {
-                label: 'Admin Profile Setting',
+                label: 'Coupon',
                 icon: TiContacts,
-                href: '/admin/profile',
+                href: '/admin/setup/coupon',
             },
             {
-                label: 'User Forms Feilds',
+                label: 'HRM',
                 icon: TiContacts,
-                href: '/admin/userForms',
+                href: '/admin/setup/hrm',
             },
             {
-                label: 'User ',
+                label: 'Payroll ',
                 icon: TiContacts,
-                href: '/admin/user',
+                href: '/admin/setup/payroll',
             },
             {
-                label: 'Province ',
+                label: 'Report ',
                 icon: TiContacts,
-                href: '/admin/province',
-            },
-            {
-                label: 'Coupon ',
-                icon: TiContacts,
-                href: '/admin/coupon',
-            },
-            {
-                label: 'Admin Tax Feilds',
-                icon: TiContacts,
-                href: '/admin/allFiles',
-            },
-            {
-                label: 'Role And Permission',
-                icon: TiContacts,
-                href: '/admin/rolePermission',
-            },
-            {
-                label: 'Website Setting',
-                icon: TiContacts,
-                href: '/admin/landingPage',
-            },
-            {
-                label: 'Driver Management',
-                icon: TiContacts,
-                href: '/admin/driverManagement',
-            },
-            {
-                label: 'Withdraw',
-                icon: TiContacts,
-                href: '/admin/withdraw',
-            },
-            {
-                label: 'Feedback',
-                icon: TiContacts,
-                href: '/admin/feedback',
+                href: '/admin/setup/report',
             },
         ]
     },

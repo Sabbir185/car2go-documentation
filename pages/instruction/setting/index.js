@@ -17,15 +17,15 @@ const Setting = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>.env File Setup Information</h5>
                     <div className='m-4'>
-                        <p>Now hit your domain on browser like, <span className='text-red-500 font-bold'>your_main_domain.com</span> first, the following page will be appeared. Now follow the below steps.</p>
-                        <img className='h-auto w-auto' src="/images/setting.png" alt="" />
+                        <p>Now hit your domain on the browser, for example: <span className='text-red-500 font-bold'>car2go.com</span>, the following page will be appeared. Now follow the below steps.</p>
+                        <img className='h-auto w-auto my-4' src="/pictures/installation/setup.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'> Admin creation</h5>
                     <div className='m-4'>
-                        <p>In this section, the admin or company owner has to provide the basic information like username, email, phone number and password to activate the website.</p>
-                        <img className='h-auto w-auto' src="/images/s1.png" alt="" />
+                        <p>In this section, the admin or company owner has to provide the basic information like name, email, phone number and password to activate the website like below picture.</p>
+                        <img className='h-auto w-auto my-4' src="/pictures/installation/setup_done.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
@@ -35,17 +35,17 @@ const Setting = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>AWS Bucket Information</h5>
                     <div className='m-4'>
-                        <p>Please fill out proper AWS bucket information. <Link href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html'><a target='_blank' rel="opener" >Click Here for proper instructions</a></Link></p>
+                        <p>Please fill out proper AWS bucket information. <Link href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html'><a target='_blank' rel="opener" >Click Here for proper instructions</a></Link></p>
                         <img className='h-auto w-auto' src="/images/s4.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4 shadow p-4'>
-                    <p className='text-red-500 font-semibold mb-0'>After completion this process you have to restart the server.</p>
+                    <p className='text-red-500 font-semibold mb-0'>After completion this process you need to restart the backend server.</p>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>Server Restart</h5>
                     <div className='m-4'>
-                        <p>Go to your cPanel or server panel. Click your backend folder.</p>
+                        <p>Go to your cPanel or server panel. Click Node Project tab. You will see the backend project. Now click on backend project name. Like this</p>
                         <img className='h-auto w-auto' src="/images/restart1.png" alt="" />
                     </div>
                     <div className='m-4'>
@@ -57,7 +57,7 @@ const Setting = () => {
                         <img className='h-auto w-auto' src="/images/restart3.png" alt="" />
                     </div>
                     <div className='my-4 shadow p-4'>
-                        <p className='text-red-500 font-semibold mb-0'>Then go to your website and reload this page. Then you can see your home page.</p>
+                        <p className='text-red-500 font-semibold mb-0'>Then go to your website and reload your frontend page. Then you can see your website landing page.</p>
                     </div>
                 </div>
             </div>

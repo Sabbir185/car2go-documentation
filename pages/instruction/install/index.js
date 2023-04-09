@@ -6,20 +6,19 @@ const Install = () => {
     return (
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
-                <h4 className='text-center'>Installing Process</h4>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black pb-2'>Install</h5>
+                <h4 className='text-center'>Getting Started</h4>
+                <div className='mb-4'>
                     <div className='m-4'>
                         <h6 className='text-red-600 border-b-[1px] border-red-600 text-center pb-2'>** To setup this project, you need to make sure that your hosting server supports node.js **</h6>
                         <ul className='list-disc'>
                             <li className='my-4'>First, You have to download the file, you will get a zip file.
-                                <img className='h-[500px] w-auto mt-4' src="/images/i1.png" alt="" />
+                                <img className='h-[400px] w-auto mt-4' src="/pictures/installation/1.png" alt="" />
                             </li>
-                            <li className='my-4'>Then, you have to <span className='text-[20px] font-bold text-red-500'>Extract</span> the file.
-                                <img className='h-[500px] w-auto mt-4' src="/images/i2.png" alt="" />
+                            <li className='my-4'>Then, you have to <span className='text-[20px] font-bold text-red-500'>Extract</span> the zip file.
+                                <img className='h-[500px] w-auto mt-4' src="/pictures/installation/3.png" alt="" />
                             </li>
-                            <li className='my-4'>You will find two files <span className='text-[20px] font-bold text-red-500'>1. taxstick-backend</span> and <span className='text-[20px] font-bold text-red-500'>2. taxstick-frondend</span>.
-                                <img className='h-[500px] w-auto mt-4' src="/images/i3.png" alt="" />
+                            <li className='my-4'>You will find two files <span className='text-[20px] font-bold text-red-500'>1. car2go backend</span> and <span className='text-[20px] font-bold text-red-500'>2. car2go frontend</span>.
+                                <img className='h-[400px] w-auto mt-4' src="/pictures/installation/2.png" alt="" />
                             </li>
                             <li className='my-4'>
                                 Install project dependencies:
