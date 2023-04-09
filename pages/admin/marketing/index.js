@@ -33,29 +33,43 @@ const Marketing = () => {
                                 <p><span className='font-medium text-[#FFA525]'>All SMS :</span> Here, you will see the list of all successful, pending, or failed SMS.</p>
                             </li>
                             <li>
-                                <p><span className='text-base font-medium text-[#FFA525]'>Pending SMS :</span>Here, you will see the list of all pending SMS.</p>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Pending SMS :</span> Here, you will see the list of all pending SMS.</p>
                             </li>
                             <li>
-                                <p><span className='text-base font-medium text-[#FFA525]'>Delivered SMS :</span>Here, you will see the list of all successful SMS.</p>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Delivered SMS :</span> Here, you will see the list of all successful SMS.</p>
                             </li>
                             <li>
-                                <p><span className='text-base font-medium text-[#FFA525]'>Schedule SMS :</span>Here, you will see the list of all SMS that are scheduled for later.</p>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Schedule SMS :</span> Here, you will see the list of all SMS that are scheduled for later.</p>
                             </li>
                             <li>
-                                <p><span className='text-base font-medium text-[#FFA525]'>Failed SMS :</span>Here, you will see the list of all failed SMS.</p>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Failed SMS :</span> Here, you will see the list of all failed SMS.</p>
                             </li>
                         </ul>
                     </Tabs.TabPane>
 
                     <Tabs.TabPane tab="Whatsapp Options" key="3">
-                        <h4 className='text-center font-semibold underline'>Contact Page</h4>
-                        <p className='text-base'>First, you need to go to the admin panel &gt; frontend pages &gt; contact page, where you will see 3 sections. Here, you have to fill out all the forms in different languages, and the information will be shown on the contact page. </p>
-                        <p className='text-base underline font-semibold capitalize mt-4'>admin panel</p>
-                        <img className='h-auto w-auto shadow-sm' src='/images/admin/frontend-pages/landing-page/contact.png' alt="" />
-                        <img className='h-auto w-auto shadow-sm' src='/images/admin/frontend-pages/landing-page/contact-information.png' alt="" />
-                        <p className='text-base underline font-semibold capitalize mt-4'>contact page</p>
-                        <img className='h-auto w-auto shadow-sm' src='/images/admin/frontend-pages/landing-page/contact-land.png' alt="" />
-                        <img className='h-auto w-auto shadow-sm mt-4' src='/images/admin/frontend-pages/landing-page/contact-information-land.png' alt="" />
+                    <h4 className='text-center font-semibold underline'>Whatsapp Options</h4>
+                        <p className='text-base'>Here you will see a form. You can send a message to an individual person or in a group using this form. By clicking the send now or schedule for later button, you can send a message immediately or later.</p>
+                        <p className='text-base underline font-semibold capitalize mt-4'>Send Whatsapp Message</p>
+                        <img className='h-auto w-auto shadow-sm' src='/images/admin/marketing/send-whatsapp.png' alt="" />
+                        <p className='text-base underline font-semibold capitalize mt-4'>another page</p>
+                        <ul className='list-disc text-base'>
+                            <li>
+                                <p><span className='font-medium text-[#FFA525]'>All Whatsapp Message :</span> Here, you will see the list of all successful, pending, or failed Message.</p>
+                            </li>
+                            <li>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Pending Whatsapp Message :</span> Here, you will see the list of all pending Message.</p>
+                            </li>
+                            <li>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Delivered Whatsapp Message :</span> Here, you will see the list of all successful Message.</p>
+                            </li>
+                            <li>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Schedule Whatsapp Message :</span> Here, you will see the list of all Message that are scheduled for later.</p>
+                            </li>
+                            <li>
+                                <p><span className='text-base font-medium text-[#FFA525]'>Failed Whatsapp Message :</span> Here, you will see the list of all failed Message.</p>
+                            </li>
+                        </ul>
                     </Tabs.TabPane>
 
                     <Tabs.TabPane tab="Email Options" key="4">
