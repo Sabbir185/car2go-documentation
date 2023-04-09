@@ -1,5 +1,5 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword,
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword, MdOutlineLocalOffer,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
@@ -7,6 +7,9 @@ import { TiContacts } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
 import { FcWorkflow } from "react-icons/fc";
 import { TiFlowMerge } from "react-icons/ti";
+import { BiHistory } from "react-icons/bi";
+import { TbListDetails } from "react-icons/tb";
+import { BsCardChecklist, BsTicketDetailedFill, BsWallet2 } from "react-icons/bs";
 
 
 const AdminLayout = ({ children }) => {
@@ -140,28 +143,33 @@ const menu = [
         child: [
             {
                 label: 'Trip History',
-                icon: TiContacts,
+                icon: BiHistory,
                 href: '/user-panel/trip-history',
             },
             {
+                label: 'Trip Details',
+                icon: TbListDetails,
+                href: '/user-panel/trip-details',
+            },
+            {
                 label: 'Payment List',
-                icon: TiContacts,
-                href: '/accountant/allTaxFile',
+                icon: BsCardChecklist,
+                href: '/user-panel/payment-list',
             },
             {
                 label: 'Offers',
-                icon: TiContacts,
-                href: '/accountant/allTaxFile',
+                icon: MdOutlineLocalOffer,
+                href: '/user-panel/offers',
             },
             {
                 label: 'Wallet',
-                icon: TiContacts,
-                href: '/accountant/allTaxFile',
+                icon: BsWallet2,
+                href: '/user-panel/wallet',
             },
             {
                 label: 'Support Ticket',
-                icon: TiContacts,
-                href: '/accountant/allTaxFile',
+                icon: BsTicketDetailedFill,
+                href: '/user-panel/support-ticket',
             },
         ]
     },
