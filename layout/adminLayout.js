@@ -128,6 +128,11 @@ const menu = [
                 href: '/admin/withdraw',
             },
             {
+                label: 'Frontend Pages',
+                icon: TiContacts,
+                href: '/admin/frontendPages',
+            },
+            {
                 label: 'Feedback',
                 icon: TiContacts,
                 href: '/admin/feedback',
