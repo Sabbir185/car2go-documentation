@@ -25,6 +25,9 @@ import {FaWrench, FaTools,} from "react-icons/fa";
 import {VscSettings} from "react-icons/vsc";
 import {RiChatSettingsLine, RiMailSettingsFill, RiSettings6Fill} from "react-icons/ri";
 import { IoPush} from "react-icons/io5";
+import { HiTicket} from "react-icons/hi";
+import { GrOrganization, GrUserSettings} from "react-icons/gr";
+import {SiKnowledgebase} from "react-icons/si";
 
 const AdminLayout = ({children}) => {
 
@@ -276,6 +279,38 @@ const menu = [
                 icon: BiNotification,
                 href: '/push-notification/manage_group',
                 permission: 'any'
+            },
+        ]
+    },
+    {
+        label: 'Support Ticket',
+        icon: FaWrench,
+        permission: 'any',
+        child: [
+            {
+                label: 'Tickets', icon: HiTicket, href: '/ticket/tickets', permission: 'any'
+            },
+            {
+                label: 'Knowledge Base', icon: SiKnowledgebase, href: '/ticket/knowledgebase', permission: 'any'
+            },
+            {
+                label: 'Organization', icon: GrOrganization, href: '/ticket/organization', permission: 'any'
+            },
+            {
+                label: 'Agents', icon: MdOutlineSupportAgent, href: '/ticket/agents', permission: 'any'
+            },
+            {
+                label: 'Settings', icon: GrUserSettings, href: '/ticket/setting',
+            }
+        ]
+    },
+    {
+        label: 'Employee Panel',
+        icon: FaWrench,
+        permission: 'any',
+        child: [
+            {
+                label: 'Ticket-Employee', icon: HiTicket, href: '/employee/ticket_employee', permission: 'any'
             },
         ]
     },
