@@ -3,13 +3,15 @@ import {
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
-import { TiContacts } from "react-icons/ti";
+import { TiContacts, TiDocument, TiTicket } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
-import { FcWorkflow } from "react-icons/fc";
+import { FcDocument, FcWorkflow } from "react-icons/fc";
 import { TiFlowMerge } from "react-icons/ti";
-import { BiHistory, BiSupport } from "react-icons/bi";
+import { BiHistory, BiSupport, BiTrip, BiWallet } from "react-icons/bi";
 import { TbListDetails } from "react-icons/tb";
-import { BsCardChecklist, BsTicketDetailedFill, BsWallet2 } from "react-icons/bs";
+import { GiPayMoney, GiReceiveMoney } from "react-icons/gi";
+import { BsCardChecklist, BsCash, BsFileArrowUpFill, BsFillStarFill, BsTicketDetailedFill, BsWallet2 } from "react-icons/bs";
+import { FaMotorcycle } from "react-icons/fa";
 
 
 const AdminLayout = ({ children }) => {
@@ -178,30 +180,45 @@ const menu = [
         icon: MdSupervisedUserCircle,
         child: [
             {
-                label: 'User Login',
-                icon: TiContacts,
-                href: '/user/login',
+                label: 'Trip List',
+                icon: BiTrip,
+                href: '/driver-panel/trip-list',
             },
             {
-                label: 'Tax File Submission',
-                icon: TiContacts,
-                href: '/user/form',
+                label: 'My Ratings',
+                icon: BsFillStarFill,
+                href: '/driver-panel/my-ratings',
             },
             {
-                label: 'My Tax File',
-                icon: TiContacts,
-                href: '/user/mytaxFile',
+                label: 'Earnings',
+                icon: BiWallet,
+                href: '/driver-panel/earnings',
             },
             {
-                label: 'File From A/C ',
-                icon: TiContacts,
-                href: '/user/fileAC',
+                label: 'Received Payments',
+                icon: GiReceiveMoney,
+                href: '/driver-panel/received-payments',
             },
             {
-                label: 'Feedback',
-                icon: TiContacts,
-                href: '/user/feebbackUS',
+                label: 'Withdraw',
+                icon: BsCash,
+                href: '/driver-panel/withdraw',
             },
+            {
+                label: 'Vehicle',
+                icon: FaMotorcycle,
+                href: '/driver-panel/vehicle',
+            },
+            {
+                label: 'Documents',
+                icon: TiDocument,
+                href: '/driver-panel/documents',
+            },
+            {
+                label: 'Support Ticket',
+                icon: BiSupport,
+                href: '/driver-panel/support-ticket',
+            }
         ]
     },
     {
