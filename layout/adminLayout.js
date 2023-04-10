@@ -7,7 +7,7 @@ import { TiContacts } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
 import { FcWorkflow } from "react-icons/fc";
 import { TiFlowMerge } from "react-icons/ti";
-import { BiHistory } from "react-icons/bi";
+import { BiHistory, BiSupport } from "react-icons/bi";
 import { TbListDetails } from "react-icons/tb";
 import { BsCardChecklist, BsTicketDetailedFill, BsWallet2 } from "react-icons/bs";
 
@@ -168,7 +168,7 @@ const menu = [
             },
             {
                 label: 'Support Ticket',
-                icon: BsTicketDetailedFill,
+                icon: BiSupport,
                 href: '/user-panel/support-ticket',
             },
         ]
