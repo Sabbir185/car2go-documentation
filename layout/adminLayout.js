@@ -1,5 +1,5 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword, MdPrivacyTip, MdContactPage, MdOutlineReadMore,
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword, MdPrivacyTip, MdContactPage, MdOutlineReadMore, MdOutlinePayments,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
@@ -8,8 +8,11 @@ import { CgMediaLive } from "react-icons/cg";
 import { FcWorkflow } from "react-icons/fc";
 import { TiFlowMerge } from "react-icons/ti";
 import { AiOutlineContacts, AiOutlineFileUnknown, AiOutlineHome } from "react-icons/ai";
-import { GiTakeMyMoney } from "react-icons/gi";
+import { GiMedallist, GiTakeMyMoney } from "react-icons/gi";
 import { HiOutlineDocumentText } from "react-icons/hi";
+import { BsPersonLinesFill } from "react-icons/bs";
+import { FaPager } from "react-icons/fa";
+import { VscFeedback } from "react-icons/vsc";
 
 
 const AdminLayout = ({ children }) => {
@@ -122,27 +125,27 @@ const menu = [
             },
             {
                 label: 'Driver Management',
-                icon: TiContacts,
+                icon: BsPersonLinesFill,
                 href: '/admin/driverManagement',
             },
             {
                 label: 'Withdraw',
-                icon: TiContacts,
+                icon: MdOutlinePayments,
                 href: '/admin/withdraw',
             },
             {
                 label: 'Frontend Pages',
-                icon: TiContacts,
+                icon: FaPager,
                 href: '/admin/frontendPages',
             },
             {
                 label: 'Marketing',
-                icon: TiContacts,
+                icon: GiMedallist,
                 href: '/admin/marketing',
             },
             {
                 label: 'Feedback',
-                icon: TiContacts,
+                icon: VscFeedback,
                 href: '/admin/feedback',
             },
         ]
