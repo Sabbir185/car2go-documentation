@@ -114,7 +114,7 @@ const Marketing = () => {
                         <div className='my-4'>
                             <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>Subscribed Users</h5>
                             <div className='m-4'>
-                                <p className='text-base'>Here, you will see a list of all users who have subscribed to this platform by using the landing page newsletter form. You can ban or activate any user from the list by using the action button on the right side. If any user is included in a group, then you will see the group name on the left side. You can also add a subscribed user manually by clicking on the <span className='text-[#FFA525] font-semibold'>subscribe to our newsletter</span> button.</p>
+                                <p className='text-base'>Here, you will see a list of all users who have subscribed to this platform by using the landing page newsletter form. You can ban or activate any user from the list by using the action button on the right side. You can also add a subscribed user manually by clicking on the <span className='text-[#FFA525] font-semibold'>subscribe to our newsletter</span> button.</p>
                                 <img className='h-auto w-auto shadow-sm' src='/images/admin/marketing/subscribed-user.png' alt="" />
                             </div>
                         </div>
