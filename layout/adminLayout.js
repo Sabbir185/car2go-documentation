@@ -232,6 +232,11 @@ const menu = [
                 href: '/live/home',
             },
             {
+                label: 'Earn With Share Page',
+                icon: TiContacts,
+                href: '/live/earnWithShare',
+            },
+            {
                 label: 'Blog Page',
                 icon: TiContacts,
                 href: '/live/blog',
