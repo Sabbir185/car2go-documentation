@@ -89,8 +89,8 @@ const DriverManagement = () => {
                                     </li>
                                     <li className='my-4 bg-[#FFA525] p-4 flex items-center'>
                                         <div>
-                                        <h5 className='inline  text-white'>Terms and Conditions: </h5>
-                                        <p className='inline text-white'>It is very important to add a terms and conditions option to your driver registration form. Please follow the process.</p>
+                                            <h5 className='inline  text-white'>Terms and Conditions: </h5>
+                                            <p className='inline text-white'>It is very important to add a terms and conditions option to your driver registration form. Please follow the process.</p>
                                         </div>
                                         <button className='inline  text-white mx-4 border-2 border-white rounded px-4 py-1 cursor-pointer font-bold hover:bg-white hover:!text-[#FFA525]' onClick={handleTermsRouteChange}>
                                             Click Here</button>
