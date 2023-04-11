@@ -13,11 +13,6 @@ import {
     MdOutlineReadMore,
     MdOutlinePayments,
     MdOutlineLocalOffer,
-    MdNotificationAdd,
-    MdOutlineNotificationAdd,
-    MdOutlineNotificationImportant,
-    MdPermDataSetting,
-    MdSettingsPhone,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
@@ -33,24 +28,15 @@ import { FaPager } from "react-icons/fa";
 import { VscFeedback } from "react-icons/vsc";
 import { BiHistory, BiSupport, BiTrip, BiWallet } from "react-icons/bi";
 import { TbListDetails } from "react-icons/tb";
-import { GiPayMoney, GiReceiveMoney } from "react-icons/gi";
+import {  GiReceiveMoney } from "react-icons/gi";
 import { BsCardChecklist, BsCash, BsFileArrowUpFill, BsFillStarFill, BsTicketDetailedFill, BsWallet2 } from "react-icons/bs";
 import { FaMotorcycle } from "react-icons/fa";
-import { BiNotification } from "react-icons/bi";
 import { AiFillNotification, } from "react-icons/ai";
-import { IoNotificationsCircleSharp, } from "react-icons/io5";
 import { FaWrench, FaTools, } from "react-icons/fa";
-import { VscSettings } from "react-icons/vsc";
-import { RiChatSettingsLine, RiMailSettingsFill, RiSettings6Fill } from "react-icons/ri";
-import { IoPush } from "react-icons/io5";
-import { HiTicket } from "react-icons/hi";
-import { GrOrganization, GrUserSettings } from "react-icons/gr";
-import { SiKnowledgebase } from "react-icons/si";
+
 
 const AdminLayout = ({ children }) => {
-
     const menu = getMenu()
-
     return (
         <div className="dashboard">
             <Sidebar menu={menu} />

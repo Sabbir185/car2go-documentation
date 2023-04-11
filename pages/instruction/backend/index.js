@@ -3,6 +3,7 @@ import AdminLayout from '../../../layout/adminLayout';
 
 const backend = () => {
     return (
+        <AdminLayout>
             <div>
                 <h4 className='text-center border-b-[1px] py-2 border-black'>Backend Installation Process</h4>
                 <div className='m-4'>
@@ -33,7 +34,7 @@ const backend = () => {
 
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
-                            Now you can see the uploaded files And You can see <span className='text-green-500'>node_modules.</span> 
+                            Now you can see the uploaded files And You can see <span className='text-green-500'>node_modules.</span>
                             <img className='h-auto w-auto mt-4' src="/images/b8.png" alt="" />
                         </li>
                         <li className='my-4'>

@@ -17,8 +17,8 @@ const Offers = () => {
                     </ul>
                 </div>
             </div>
-        
-    );
+        </AdminLayout >
+    )
 };
 
 export default Offers;

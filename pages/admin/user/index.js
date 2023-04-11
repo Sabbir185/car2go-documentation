@@ -36,7 +36,8 @@ const userDisplay = () => {
                     </ul>
                 </div>
             </div>
-        
+        </AdminLayout>
+
     );
 };
 

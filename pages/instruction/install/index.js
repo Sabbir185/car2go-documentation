@@ -4,6 +4,7 @@ import AdminLayout from '../../../layout/adminLayout';
 
 const Install = () => {
     return (
+        <AdminLayout>
             <div>
                 <h4 className='text-center'>Installing Process</h4>
                 <div className='my-4'>
@@ -28,15 +29,15 @@ const Install = () => {
                                     </div>
                                     </li>
                                     <li>
-                                        After successfully installed, check NodeJs version. It will show some number. 
-                                        <span className='text-red-500 font-medium'> node --version</span> 
+                                        After successfully installed, check NodeJs version. It will show some number.
+                                        <span className='text-red-500 font-medium'> node --version</span>
                                     </li>
                                     <li>
-                                        If yarn is not installed, then use the following command to install yarn: 
+                                        If yarn is not installed, then use the following command to install yarn:
                                         <span className='text-red-500 font-medium'> npm i -g yarn</span>
                                     </li>
                                     <li>
-                                        Check yarn version, It will show some number. 
+                                        Check yarn version, It will show some number.
                                         <span className='text-red-500 font-medium'> yarn --version</span>
                                     </li>
                                 </ul>
