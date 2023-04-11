@@ -1,10 +1,8 @@
-import Link from 'next/link';
 import React from 'react';
-import AdminLayout from '../../../layout/adminLayout';
 
-const backend = () => {
-    return (<AdminLayout>
-        <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
+const ManageGroup = () => {
+    return (
+        <div>
             <h4 className='text-center border-b-[1px] py-2 border-black'>Manage push-notification Group</h4>
             <div className='m-4'>
                 <ul className='list-disc'>
@@ -59,16 +57,14 @@ const backend = () => {
                                         <img className='h-[500px] w-auto mt-4'
                                              src={'/images/push_notifications/confirmation.png'}/>
                                     </li>
-
                                 </ul>
                             </li>
-
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
-    </AdminLayout>);
+);
 };
 
-export default backend;
+export default ManageGroup;

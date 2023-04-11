@@ -3,8 +3,7 @@ import AdminLayout from '../../../layout/adminLayout';
 
 const backend = () => {
     return (
-        <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
+            <div>
                 <h4 className='text-center border-b-[1px] py-2 border-black'>Backend Installation Process</h4>
                 <div className='m-4'>
                     <ul className='list-disc'>

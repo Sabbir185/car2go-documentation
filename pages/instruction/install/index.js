@@ -4,8 +4,7 @@ import AdminLayout from '../../../layout/adminLayout';
 
 const Install = () => {
     return (
-        <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
+            <div>
                 <h4 className='text-center'>Installing Process</h4>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black pb-2'>Install</h5>

@@ -1,17 +1,14 @@
-import Link from 'next/link';
 import React from 'react';
-import AdminLayout from '../../layout/adminLayout';
 
-const backend = () => {
+const FailedNotifications = () => {
     return (
-        <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
-                <h4 className='text-center border-b-[1px] py-2 border-black'>All  Push-notifications </h4>
+            <div>
+                <h4 className='text-center border-b-[1px] py-2 border-black'>Failed  Push-notifications </h4>
                 <div className='m-4'>
                     <ul className='list-disc'>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Descriptions</p>
-                            All the push-notifications that are sent to the users will be displayed in this table.Push-notifications are sorted by the date and time they are sent.
+                            All the push-notifications that are <span className={'text-red-500'}>failed to sent</span> will be displayed in this table.Push-notifications are sorted by the date and time they are sent.
                             Table contains the following columns:
                             <ul className='list-disc'>
                                 <li className='my-4'>
@@ -35,14 +32,13 @@ const backend = () => {
                                     <p>It is the name of the group to which the notification is sent.if group name showed as "...", that means it is send to all user or driver or users. </p>
                                 </li>
                             </ul>
-                            <img className='h-[500px] w-auto mt-4' src="/images/push_notifications/all.png" alt="" />
+                            <img className='h-[500px] w-auto mt-4' src="/images/push_notifications/failed.png" alt="" />
                         </li>
 
                     </ul>
                 </div>
             </div>
-        </AdminLayout>
     );
 };
 
-export default backend;
+export default FailedNotifications;

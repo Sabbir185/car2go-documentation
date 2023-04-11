@@ -1,11 +1,8 @@
-import Link from 'next/link';
 import React from 'react';
-import AdminLayout from '../../layout/adminLayout';
 
-const backend = () => {
+const SendNotifications = () => {
     return (
-        <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
+            <div>
                 <h4 className='text-center border-b-[1px] py-2 border-black'>Send Push Notifications to
                     Applications </h4>
                 <div className='m-4'>
@@ -60,8 +57,7 @@ const backend = () => {
                     </ul>
                 </div>
             </div>
-        </AdminLayout>
     );
 };
 
-export default backend;
+export default SendNotifications;

@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-import AdminLayout from '../../layout/adminLayout';
+import AdminLayout from '../../../layout/adminLayout';
 
-const backend = () => {
-    return (<AdminLayout>
-        <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-2'>
+const Payment = () => {
+    return (
+        <div>
             <h4 className='text-center border-b-[1px] py-2 border-black'>
                 Payment settings
             </h4>
@@ -39,7 +39,7 @@ const backend = () => {
                 </ul>
             </div>
         </div>
-    </AdminLayout>);
+);
 };
 
-export default backend;
+export default Payment;
