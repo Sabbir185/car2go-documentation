@@ -1,5 +1,5 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword, MdOutlineLocalOffer,
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword, MdPrivacyTip, MdContactPage, MdOutlineReadMore, MdOutlinePayments, MdOutlineLocalOffer
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
@@ -7,6 +7,12 @@ import { TiContacts, TiDocument, TiTicket } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
 import { FcDocument, FcWorkflow } from "react-icons/fc";
 import { TiFlowMerge } from "react-icons/ti";
+import { AiOutlineContacts, AiOutlineFileUnknown, AiOutlineHome } from "react-icons/ai";
+import { GiMedallist, GiTakeMyMoney } from "react-icons/gi";
+import { HiOutlineDocumentText } from "react-icons/hi";
+import { BsPersonLinesFill } from "react-icons/bs";
+import { FaPager } from "react-icons/fa";
+import { VscFeedback } from "react-icons/vsc";
 import { BiHistory, BiSupport, BiTrip, BiWallet } from "react-icons/bi";
 import { TbListDetails } from "react-icons/tb";
 import { GiPayMoney, GiReceiveMoney } from "react-icons/gi";
@@ -124,17 +130,27 @@ const menu = [
             },
             {
                 label: 'Driver Management',
-                icon: TiContacts,
+                icon: BsPersonLinesFill,
                 href: '/admin/driverManagement',
             },
             {
                 label: 'Withdraw',
-                icon: TiContacts,
+                icon: MdOutlinePayments,
                 href: '/admin/withdraw',
             },
             {
+                label: 'Frontend Pages',
+                icon: FaPager,
+                href: '/admin/frontendPages',
+            },
+            {
+                label: 'Marketing',
+                icon: GiMedallist,
+                href: '/admin/marketing',
+            },
+            {
                 label: 'Feedback',
-                icon: TiContacts,
+                icon: VscFeedback,
                 href: '/admin/feedback',
             },
         ]
@@ -258,8 +274,13 @@ const menu = [
         child: [
             {
                 label: 'Home Page',
-                icon: TiContacts,
+                icon: AiOutlineHome,
                 href: '/live/home',
+            },
+            {
+                label: 'Earn With Share Page',
+                icon: GiTakeMyMoney,
+                href: '/live/earnWithShare',
             },
             {
                 label: 'Blog Page',
@@ -268,32 +289,32 @@ const menu = [
             },
             {
                 label: 'About Page',
-                icon: TiContacts,
+                icon: AiOutlineContacts,
                 href: '/live/about',
             },
             {
                 label: 'Knowledge Page',
-                icon: TiContacts,
+                icon: AiOutlineFileUnknown,
                 href: '/live/knowledge',
             },
             {
                 label: 'Terms & Condition Page',
-                icon: TiContacts,
+                icon: HiOutlineDocumentText,
                 href: '/live/termsCondition',
             },
             {
                 label: 'Privacy Policy Page',
-                icon: TiContacts,
+                icon: MdPrivacyTip,
                 href: '/live/privacyPolicy',
             },
             {
                 label: 'Contact Page',
-                icon: TiContacts,
+                icon: MdContactPage,
                 href: '/live/contact',
             },
             {
                 label: 'More Pages',
-                icon: TiContacts,
+                icon: MdOutlineReadMore,
                 href: '/live/more',
             },
         ]
