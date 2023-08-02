@@ -33,7 +33,7 @@ const Marketing = () => {
                     </Tabs.TabPane>
 
                     <Tabs.TabPane tab="Whatsapp Options" key="2">
-                    <h4 className='text-center font-semibold underline'>Whatsapp Options</h4>
+                        <h4 className='text-center font-semibold underline'>Whatsapp Options</h4>
                         <p className='text-base'>Here you will see a form. You can send a message to an individual person or in a group using this form. By clicking the send now or schedule for later button, you can send a message immediately or later.</p>
                         <p className='text-base underline font-semibold capitalize mt-4'>Send Whatsapp Message</p>
                         <img className='h-auto w-auto shadow-sm' src='/images/admin/marketing/send-whatsapp.png' alt="" />
@@ -170,10 +170,10 @@ const Marketing = () => {
                             <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>Gmail Provider</h5>
                             <div className='m-4'>
                                 <p className='text-base'>This option is enabled by default. If you use Gmail, you can get this data in the Gmail service.</p>
-                                <img className='h-auto w-auto shadow-sm' src='/images/admin/marketing/send-grid-email.png' alt="" />
+                                <img className='h-auto w-auto shadow-sm' src='/images/admin/marketing/gmail-provider.png' alt="" />
                             </div>
                         </div>
-                        
+
                         <div className='my-4'>
                             <h5 className='border-b-[1px] border-[#FFA525] capitalize pb-2'>Other Email Provider</h5>
                             <div className='m-4'>
