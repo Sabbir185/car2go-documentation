@@ -19,7 +19,7 @@ const PaymentList = () => {
                             <li><span className='font-bold'>Time: </span>Time of the trip.</li>
                             <li><span className='font-bold'>Distance: </span>The total distance of the trip.</li>
                             <li><span className='font-bold'>Total Fare: </span>The total cost of the trip.</li>
-                            <li><span className='font-bold'>Payment Received: </span>The amount paid by the user.</li>
+                            <li><span className='font-bold'>Paid: </span>The amount paid by the user.</li>
                             <li><span className='font-bold'>payment_method: </span>The method of the payment</li>
                             <li><span className='font-bold'>Payment Status: </span>The current status of the payment. Several statuses may occur, including:
                                 <ul className='list-disc'>

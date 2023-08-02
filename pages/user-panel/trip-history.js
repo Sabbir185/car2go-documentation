@@ -1,11 +1,9 @@
 import React from 'react';
 import AdminLayout from '../../layout/adminLayout';
-import { SectionHeading, SectionParagraph } from '../../components/dashboard/common/common';
+import { SectionHeading } from '../../components/dashboard/common/common';
 import Link from 'next/link';
 
 const TripHistory = () => {
-
-
 
     return (
         <AdminLayout>
