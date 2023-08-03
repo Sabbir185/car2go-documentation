@@ -9,15 +9,14 @@ const TripHistory = () => {
       <div className="bg-yellow-50 bg-opacity-20 h-auto m-6 w-[90%] text-[16px] p-4 rounded">
         <SectionHeading heading="Trip Now" />
         <div>
-          <p>The user can take a ride from here:</p>
+          <p>The driver can manage a ride from here:</p>
           <div className="space-y-16">
             <div>
               <h5 className="border-b w-1/2 pb-1 border-[#FFA525] text-[#FFA525]">
                 Step - 1
               </h5>
               <p>
-                <span className="font-bold">Allow Location: </span> To take a
-                ride you must have to allow your location.
+                <span className="font-bold">Ride Request: </span> When a user request to you for a ride then you can see the user information.
               </p>
               <img
                 className="h-auto w-auto mx-auto mt-2 shadow-sm"

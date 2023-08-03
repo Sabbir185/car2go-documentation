@@ -228,6 +228,11 @@ const menu = [
     icon: MdSupervisedUserCircle,
     child: [
       {
+        label: "Trip Now",
+        icon: AiOutlineCar,
+        href: "/driver-panel/trip-now",
+      },
+      {
         label: "Trip List",
         icon: BiTrip,
         href: "/driver-panel/trip-list",
